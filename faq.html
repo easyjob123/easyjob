@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>easyjob.lol/FAQ</title>
+<style>
+  body {
+    background-color: #5c5c8a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #666699;
+    color: white;
+  }
+  /* Style the accordion */
+  .accordion {
+    background-color: #5c5c8a;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #666699;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: #333;
+    display: none;
+    overflow: hidden;
+  }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="how.html">Steps Recorder Tutorial</a>
+  <a class="active" href="faq.html">FAQ</a>
+  <a href="payment.html">Payment</a>
+  <a href="testimonials.html">Use cases</a>
+</div>
+
+<div class="container">
+  <h2>Frequently Asked Questions</h2>
+  
+  <button class="accordion">What types of tasks can be automated with custom scripts?</button>
+  <div class="panel">
+    <p>Our custom scripts can automate tasks such as data entry, report generation, email notifications, data extraction, form filling, web scraping, and more. If you have a specific task in mind, feel free to ask us about it.</p>
+  </div>
+
+<button class="accordion">Is my data secure when using your custom scripts?</button>
+<div class="panel">
+  <p>Yes, your data security is our top priority. We follow the industry's best practices to ensure your data is protected and only used for the intended automation purposes.</p>
+</div>
+
+<button class="accordion">What if I'm not sure exactly what I need automated?</button>
+<div class="panel">
+  <p>No problem! We offer consultation services to help you identify areas in your workflow that could benefit from automation. Our experts can guide you through the process and suggest solutions that align with your goals.</p>
+</div> 
+
+<button class="accordion">How can I request a consultation or get more information about your services?</button>
+<div class="panel">
+  <p>Getting in touch is easy! You can reach out to us directly via email at hi@easyjob.lol. We're here to answer your questions and discuss how our email automation services can enhance your workflow.</p>
+</div> 
+
+<button class="accordion">Do I need technical expertise to use your automation services?</button>
+<div class="panel">
+  <p>No, you don't need to be a technical expert. We handle all the technical aspects. Just let us know your requirements, and we'll create custom scripts that cater to your needs.</p>
+</div> 
+
+<button class="accordion">What are the costs associated with developing a custom script?</button>
+<div class="panel">
+  <p>The cost varies based on the complexity of the task, development time, and features required. We'll provide you with a detailed quote after discussing your needs during the initial consultation.</p>
+</div> 
+
+<button class="accordion">How can I send you an overview of my workflow?</button>
+<div class="panel">
+  <p>To ensure we have a clear understanding of your workflow and can provide you with the best automation solutions, we kindly request that you follow these steps: First, familiarize yourself with our Steps Recorder Tutorial, which explains how to record your workflow. Once you have recorded the necessary steps, save the tutorial as an HTML file. Then, please send the saved HTML file detailing the recorded steps to hi@easyjob.lol via email. This comprehensive overview will enable us to tailor our services effectively to your specific needs and enhance your workflow through automation.</p>
+</div> 
+  <!-- Add more FAQ accordion sections here -->
+  
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+} 
+</script>
+
+<div class="container">
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <p>Email: <a href="mailto:hi@easyjob.lol">hi@easyjob.lol</a></p>
+</div>
+</body>
+</html>
